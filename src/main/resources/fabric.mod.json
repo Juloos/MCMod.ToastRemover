@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "toastremover",
+    "version": "${version}",
+    "name": "Toast Remover",
+    "description": "Remove toasts",
+    "authors": [
+        "Juloos"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/toastremover/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [],
+        "main": []
+    },
+    "mixins": [
+        "toastremover.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": ">=${minecraft_version}"
+    }
+}
